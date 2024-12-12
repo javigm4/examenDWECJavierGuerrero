@@ -1,0 +1,24 @@
+{
+  "categories": [
+    {
+      "CatName": "Women",
+      "CategoryValue": "ladies"
+    },
+    {
+      "CatName": "Men",
+      "CategoryValue": "men"
+    },
+    {
+      "CatName": "Kids",
+      "CategoryValue": "kids"
+    },
+    {
+      "CatName": "H&M HOME",
+      "CategoryValue": "home"
+    },
+    {
+      "CatName": "Beauty",
+      "CategoryValue": "beauty"
+    }
+  ]
+}

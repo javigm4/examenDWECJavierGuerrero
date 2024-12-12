@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-style: italic;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: cadetblue;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, black, cadetblue);
+}
+
+.container {
+  height: 800px;
+  width: 1200px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  background: #2e4d4e;
+}
+
+.selector-section {
+  display: flex;
+  width: auto;
+  margin: 10px 10px 10px 10px;
+  align-items: center;
+}
+
+select {
+  width: auto;
+  border-radius: 5px;
+  height: 30px;
+  border: 1px solid cadetblue;
+  margin-left: 5px;
+  background-color: #2e4d4e;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  color: cadetblue;
+}
+
+option {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  color: cadetblue;
+}
+
+span {
+  color: cadetblue;
+}
+
+hr {
+  background-color: cadetblue;
+  border: none;
+  height: 1px;
+}
+
+.card_container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 20px 5px 5px 10px;
+  border: 1px solid cadetblue;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  text-align: center;
+  flex-basis: 20%;
+}
+
+img {
+  border-radius: 5px 5px 5px 5px;
+  width: 75%;
+  margin: 3px 3px 3px 3px;
+  color: cadetblue;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.card_text {
+  width: auto;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  color: cadetblue;
+  margin: 3px 2px 3px 2px;
+}
+
+p {
+  font-weight: bold;
+}
